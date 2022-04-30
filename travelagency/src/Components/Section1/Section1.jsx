@@ -11,8 +11,10 @@ const Section1 = () => {
             <header>
                 <nav className="navbar navbar-expand-sm navbar-dark bg-red nav-sec">
                     <div className="container-fluid">
-                    
-                        <a className="navbar-brand logo-wrap" href="javascript:void(0)"> <img src={Logo} /> Artic Travels</a>
+
+                        <div className="logo-wrap">
+                            <a className="navbar-brand logo-wrap" href="javascript:void(0)"> <img src={Logo} /> Artic Travels</a>
+                        </div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -29,26 +31,32 @@ const Section1 = () => {
                                 </li>
                             </ul>
                             <form className="d-flex">
-                                    <button className="btn btn-primary" type="button">Sign in</button>
+                                <button className="btn btn-primary" type="button">Sign in</button>
                             </form>
                         </div>
                     </div>
                 </nav>
             </header>
 
-
-
-
-
-            {/* <main>
-                <div classNameNameNameName="land-page-wrapper container-fluid ">
-                    <div classNameNameNameName="container-fluid">
-                        <div classNameNameNameName="row nav-setion ">
-
+            
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-8">
+                            <div className="content-head">
+                                <h1 className="content-head-text">Plan The Perfect Winter Trip</h1>
+                            </div>
+                            <div className="sub-ctn">
+                            <p className="sub-content">Easily plan your ideal ski trip from home with the <br /> help of professionals</p>
+                            </div>
+                            <div className="book-here-btn">
+                                <button className="btn bookhere-text">Book here</button>
+                            </div>
                         </div>
+                        <div className="col-md-4"></div>
                     </div>
                 </div>
-            </main> */}
+            
+
         </>
 
 

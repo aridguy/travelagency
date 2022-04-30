@@ -4,7 +4,9 @@
 }
 
 body{
-    background-image: url(../../assets/Section1/backgsection1.png);
+    background-image: url(../../assets/Section1/backghome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -43,10 +45,43 @@ body{
 /* nav media query */
 
 @media only screen and (max-width: 414px) {
-    .logo-wrap{
-    margin-right: 7em;
+    .logo-wrap {
+        position: relative;
+        right: 4rem;
     }
   }
 
 
+/* inside landpage */
 
+.content-head{
+    color: white;
+    font-weight: bolder;
+    margin-top: 10rem;
+}
+
+.content-head-text{
+    font-size: 4rem;
+}
+
+.sub-content{
+    color: white;
+    font-size: 28px;
+}
+
+.book-here-btn{
+    margin-top: 5em;
+}
+
+.bookhere-text {
+    background-color: #3E86F5;
+    color: white;
+    height: 53px;
+    width: 12em;
+}
+.bookhere-text:hover {
+    background-color: #3E86F5;
+    color: white;
+    height: 53px;
+    width: 12em;
+}
