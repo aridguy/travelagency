@@ -1,4 +1,9 @@
-body{
-    background-color: blue;
-    height: 30rem;
-}
+.nextunder {
+    position: relative;
+    top: 12em;
+    width: 70%;
+    height: 8em;
+    position: relative;
+    left: 16rem;
+    bottom: 3em;
+}   

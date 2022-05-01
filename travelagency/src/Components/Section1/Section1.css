@@ -7,6 +7,7 @@ body{
     background-image: url(../../assets/Section1/backghome.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 20rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -84,4 +85,17 @@ body{
     color: white;
     height: 53px;
     width: 12em;
+}
+
+.backg22{
+    background-color: #f0e9e9;
+    height: 10em;
+    margin-top: 10em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thcontents{
+    padding: 4em;
+    
 }

@@ -7,8 +7,7 @@ const Section1 = () => {
     return (
 
         <>
-
-            <header>
+            <main>
                 <nav className="navbar navbar-expand-sm navbar-dark bg-red nav-sec">
                     <div className="container-fluid">
 
@@ -36,9 +35,8 @@ const Section1 = () => {
                         </div>
                     </div>
                 </nav>
-            </header>
+            </main>
 
-            
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8">
@@ -55,7 +53,18 @@ const Section1 = () => {
                         <div className="col-md-4"></div>
                     </div>
                 </div>
-            
+                
+                <section className="container backg22">
+                    <div className="thcontents">
+                        <div className="row">
+                        <div className="col-md-2">vcvc</div>
+                        <div className="col-md-2">cvc</div>
+                        <div className="col-md-2">cvcv</div>
+                        <div className="col-md-2">cvcv</div>
+                        <div className="col-md-4">dvdfd</div>
+                        </div>
+                    </div>
+                </section>
 
         </>
 
