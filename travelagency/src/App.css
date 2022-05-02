@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+
+
+.heroimg{
+  background-image: url(../src/assets/Section1/backghome.png);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-brand{
+  text-transform: capitalize;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-expand-lg .navbar-nav {
+  position: relative;
+  right: 30rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-brand {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+  font-size: 16px;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
+  padding-left: 7px;
+  padding-right: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  opacity: 1 !important;
+}
+
+.signin-btn{
+  background-color: white;
+  list-style-type: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  list-style-type: none;
+  list-style: none;
+  background-color: white;
+  border: none;
+  color: #3e86f5;
+  width: 8em;
+  height: 3em;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  list-style-type: none;
+  list-style: none;
+  background-color: white;
+  border: none;
+  color: #3e86f5;
+  width: 8em;
+  height: 3em;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  cursor: pointer;
+  list-style-type: none;
+  list-style: none;
+  background-color: white;
+  border: none;
+  color: #3e86f5;
+  width: 8em;
+  height: 3em;
+  border-radius: 5px;
+}
+
+.head-texts {
+  font-weight: 700, bolder;
+  font-family: impact;
   color: white;
+  font-size: 64px;
 }
 
-.App-link {
-  color: #61dafb;
+.sub-txt{
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider-text p {
+  font-size: 27px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
 }
+
+.book-btn {
+  background-color: #3e86f5;
+  color: white;
+  width: 15em;
+  border: none;
+  height: 51px;
+  border-radius: 6px;
+  position: absolute;
+  left: 15em;
+  bottom: 85px;
+}
+
+.no-gutters > .col, .no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 12em;
+}
+
+.flight-btn{
+  color: white;
+  background-color: #3e86f5;
+  height: 51px;
+  border-radius: 6px;
+  border: none;
+  width: 12em;
+  transition: 1s;
+}
+
+.flight-btn > .planee:hover{
+  margin-left: 5px;
+}
+
+.mainwrap-mid {
+  background-color: rgb(251 251 251);
+  border-radius: 5px;
+  height: 7em;
+  padding: 31px;
+  position: relative;
+  bottom: 49px;
+  box-shadow: 6px 5px 6px -2px #0000001f;
+  z-index: 0px;
+}
+
+button, select {
+  text-transform: none;
+  border: none;
+  background: none;
+  position: relative;
+  left: 28px;
+  bottom: 16px;
+}
+button, select:focus {
+  text-transform: none;
+  border: none;
+  background: none;
+  position: relative;
+  left: 28px;
+  bottom: 16px;
+}
+
+.follow2sec {
+    background-color: #fbfbfb;
+    height: 14em;
+    position: relative;
+    bottom: 112px;
+    z-index: -1;
+}
+
+
+
+
+/* .nav-linkss{
+ 
+} */
