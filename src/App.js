@@ -28,7 +28,7 @@ function App() {
 
       <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div className="container">
-          <a className="navbar-brand" href="index.html"><img src={Logo} /> <i>&nbsp; </i> Arctic Travels</a>
+          <a className="navbar-brand" href="index.html"><img  alt="" src={Logo} /> <i>&nbsp; </i> Arctic Travels</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="oi oi-menu"></span> Menu
           </button>
@@ -66,7 +66,7 @@ function App() {
           <div className='row animated fadeInLeftBig'>
             <div className='col-md-2'>
               <div className='loca'>
-                <p> <img src={Location} />&nbsp; Location</p>
+                <p> <img  alt="" src={Location} />&nbsp; Location</p>
                 <select>
                   <option className='selctopttag'>Lagos State</option>
                   <option className='selctopt'>United States</option>
@@ -76,7 +76,7 @@ function App() {
             </div>
             <div className='col-md-2'>
               <div className='pers'>
-                <p> <img src={Pers} />&nbsp; Person</p>
+                <p> <img  alt="" src={Pers} />&nbsp; Person</p>
                 <select>
                   <option className='selctopttag'>2 Person</option>
 
@@ -85,7 +85,7 @@ function App() {
             </div>
             <div className='col-md-2'>
               <div className='chin'>
-                <p> <img src={chin} />&nbsp; Checkin</p>
+                <p> <img  alt="" src={chin} />&nbsp; Checkin</p>
                 <select>
                   <option className='selctopttag'>Lagos State</option>
 
@@ -94,7 +94,7 @@ function App() {
             </div>
             <div className='col-md-2'>
               <div className='chout'>
-                <p> <img src={chout} /> <span>&nbsp;</span>Checkout</p>
+                <p> <img  alt="" src={chout} /> <span>&nbsp;</span>Checkout</p>
                 <select>
                   <option className='selctopttag'>12 Jnauary 2022</option>
 
@@ -102,7 +102,7 @@ function App() {
               </div>
             </div>
             <div className='col-md-4'>
-              <button className='flight-btn'>Book Trip &nbsp; <img data-mdb-animation-start="onHover" className='planee ' src={Plane} /></button>
+              <button className='flight-btn'>Book Trip &nbsp; <img  alt="" data-mdb-animation-start="onHover" className='planee ' src={Plane} /></button>
             </div>
           </div>
         </section>
@@ -111,11 +111,11 @@ function App() {
         <div className='container-fluid'>
           <div className='row sect-wrap animated fadeInDown'>
             <div className='col-md-1'></div>
-            <div className='col-md-2 col-sm-12'><img src={Nike} /></div>
-            <div className='col-md-2'><img src={Gpay} /></div>
-            <div className='col-md-2'><img src={Start} /></div>
-            <div className='col-md-2'><img src={Intrax} /></div>
-            <div className='col-md-2'><img src={Master} /></div>
+            <div className='col-md-2 col-sm-12'><img  alt="" src={Nike} /></div>
+            <div className='col-md-2'><img  alt="" src={Gpay} /></div>
+            <div className='col-md-2'><img  alt="" src={Start} /></div>
+            <div className='col-md-2'><img  alt="" src={Intrax} /></div>
+            <div className='col-md-2'><img  alt="" src={Master} /></div>
             <div className='col-md-1'></div>
           </div>
         </div>
@@ -130,7 +130,7 @@ function App() {
               <div className='thcontents'>
                 <h1 className='midtext'>Creating the best <span className='icecold'>ice-cold!</span> experience you would never forget.</h1>
                 <p className='midtxt-sub'>Would you explore nature paradise in the world, find the best destination in the world with us.</p>
-                <img className='thearrow' src={Arrow} />
+                <img  alt="" className='thearrow' src={Arrow} />
                 <p className='subtext2nd'>View Regions Available</p>
               </div>
             </div>
@@ -145,7 +145,7 @@ function App() {
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-md-4 bg-a'>
-              {/* <img src={Bkga} /> */}
+              {/* <img  alt="" src={Bkga} /> */}
               <h1 className='th1'>Mountain Resort</h1>
             </div>
             <div className='col-md-4 bg-b'>
@@ -164,13 +164,13 @@ function App() {
             <div className='col-sm-6'>
               <div className='bestResorttxt animated slideInRight'>
                 <p className='resorttxt'>The Best Resort To Drink <br /> and Chill</p>
-                <p><img className='picsline1' src={Pics1} /></p> &nbsp; &nbsp;
-                <p><img className='picsline1 mt-3' src={Pics1} /></p>
+                <p><img  alt="" className='picsline1' src={Pics1} /></p> &nbsp; &nbsp;
+                <p><img  alt="" className='picsline1 mt-3' src={Pics1} /></p>
               </div>
             </div>
             <div className='col-sm-6 mt-3 animated slideInLeft'>
-              <p><img className='picsline2' src={Pics2} /></p>
-              <p><img className='picsline2' src={Pics2} /></p>
+              <p><img  alt="" className='picsline2' src={Pics2} /></p>
+              <p><img  alt="" className='picsline2' src={Pics2} /></p>
             </div>
           </div>
         </div>
@@ -195,7 +195,7 @@ function App() {
         <div className='container mt-5'>
           <div className='row'>
             <div className='col-md-6'>
-              <p><img src={Logofoot} /></p>
+              <p><img  alt="" src={Logofoot} /></p>
               <h1 className='foottitleh'>Artic Travels</h1>
               <p className='footsubctn'>Book your trip in minutes, get full <br />
                 control for much longer.</p>
