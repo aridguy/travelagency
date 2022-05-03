@@ -272,7 +272,81 @@ select:focus {
   right: 8em;
 } */
 
+.resorttxt{
+  font-weight: 700;
+  color: black;
+  font-size: 2em;
+}
 
+.picsline1 {
+  width: 22em;
+  float: right;
+}
+
+.picsline2{
+  width: 22em;
+}
+
+.s2lbkg{
+  background-image: url(./assets/Section1/Imagebackg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 38em;
+}
+
+.s2dlast {
+  font-weight: 700;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3em;
+  font-size: 4em;
+}
+
+.majorbtnlast {
+  cursor: pointer;
+  background: #0d6efd;
+  border: none;
+  color: white;
+  width: 10em;
+  height: 3em;
+  border-radius: 7px;
+  margin-top: 7em;
+}
+
+.uncFooter{
+  height: 30em;
+}
+
+.foottitleh{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footsubctn{
+  font-weight: 500;
+    color: black;
+}
+
+.fab{
+  padding: 8px;
+  font-size: 3em;
+  
+  margin-top: 2em;
+}
+
+.fab:hover{
+  color: #0d6efd;
+}
+
+.take{
+  color: #0d6efd;
+  font-weight: 400;
+}
+
+/* .uncFooter{
+  background-color: #f3f3f3;
+} */
 
 
 
@@ -300,6 +374,34 @@ select:focus {
     margin-top: 0em;
     height: 10rem;
   }
+
+  .s2dlast {
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+    font-size: 3em;
+    text-align: center;
+}
+
+.s2lbkg {
+  background-image: url(./assets/Section1/Imagebackg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47em;
+}
+
+.majorbtnlast {
+  cursor: pointer;
+  background: #0d6efd;
+  border: none;
+  color: white;
+  width: 16em;
+  height: 3em;
+  border-radius: 7px;
+  margin-top: 7em;
+  margin-left: 3em;
+}
 
 
 

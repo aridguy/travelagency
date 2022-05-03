@@ -16,6 +16,10 @@ import Master from './assets/icons/mastercard.png';
 
 import Arrow from './assets/icons/Arrowdown.svg';
 
+import Pics1 from './assets/Section1/Pics1.png';
+import Pics2 from './assets/Section1/Pics2.png';
+import Logofoot from './assets/Section1/Logofooter.svg';
+
 // import Bkga from './assets/Section1/bg-a.png';
 
 function App() {
@@ -44,7 +48,7 @@ function App() {
         <div className="overlay"></div>
         <div className="container">
           <div className="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-            <div className='col-md-8'>
+            <div className='col-md-8 animated fadeInRightBig'>
               <h2 className='head-texts'>Plan The Perfect Winter Trip</h2>
               <p className='sub-txt text-white'>Easily plan your ideal ski trip from home with the <br /> help of professionals</p>
             </div>
@@ -59,7 +63,7 @@ function App() {
 
       <main className='mainwrap-mid overlay container'>
         <section className='overlay container midsec'>
-          <div className='row'>
+          <div className='row animated fadeInLeftBig'>
             <div className='col-md-2'>
               <div className='loca'>
                 <p> <img src={Location} />&nbsp; Location</p>
@@ -98,14 +102,14 @@ function App() {
               </div>
             </div>
             <div className='col-md-4'>
-              <button className='flight-btn'>Book Trip &nbsp; <img className='planee' src={Plane} /></button>
+              <button className='flight-btn'>Book Trip &nbsp; <img data-mdb-animation-start="onHover" className='planee ' src={Plane} /></button>
             </div>
           </div>
         </section>
       </main>
       <section>
         <div className='container-fluid'>
-          <div className='row sect-wrap'>
+          <div className='row sect-wrap animated fadeInDown'>
             <div className='col-md-1'></div>
             <div className='col-md-2 col-sm-12'><img src={Nike} /></div>
             <div className='col-md-2'><img src={Gpay} /></div>
@@ -145,14 +149,84 @@ function App() {
               <h1 className='th1'>Mountain Resort</h1>
             </div>
             <div className='col-md-4 bg-b'>
-            <h1 className='th2'>Fuji Mountain</h1>
+              <h1 className='th2'>Fuji Mountain</h1>
             </div>
             <div className='col-md-4 bg-c'>
-            <h1 className='th3'>Freezing WinterLake</h1>
+              <h1 className='th3'>Freezing WinterLake</h1>
             </div>
           </div>
         </div>
       </div>
+
+      <div className='sect4th mt-5'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-sm-6'>
+              <div className='bestResorttxt animated slideInRight'>
+                <p className='resorttxt'>The Best Resort To Drink <br /> and Chill</p>
+                <p><img className='picsline1' src={Pics1} /></p> &nbsp; &nbsp;
+                <p><img className='picsline1 mt-3' src={Pics1} /></p>
+              </div>
+            </div>
+            <div className='col-sm-6 mt-3 animated slideInLeft'>
+              <p><img className='picsline2' src={Pics2} /></p>
+              <p><img className='picsline2' src={Pics2} /></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='s2lbkg mt-5'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-9 animated fadeinRight'>
+              <h1 className='s2dlast'>View Passes We’ve Made <br /> Available For You</h1>
+              <input className='majorbtnlast' type='submit' value='View Passes' />
+            </div>
+            <div className='col-md-3'></div>
+          </div>
+        </div>
+      </div>
+
+
+      {/* footer */}
+
+      <footer className='uncFooter'>
+        <div className='container mt-5'>
+          <div className='row'>
+            <div className='col-md-6'>
+              <p><img src={Logofoot} /></p>
+              <h1 className='foottitleh'>Artic Travels</h1>
+              <p className='footsubctn'>Book your trip in minutes, get full <br />
+                control for much longer.</p>
+                <div className='footicons'>
+                <i className="fab fa-facebook"></i>
+                <i className="fab fa-instagram"></i>
+                <i className="fab fa-twitter"></i>
+                  <span></span>
+                </div>
+            </div>
+            <div className='col-md-2'>
+              <div>
+                <p className='take'>Company</p>
+              </div>
+            </div>
+            <div className='col-md-2'>
+            <div>
+                <p className='take'>Contact</p>
+              </div>
+            </div>
+            <div className='col-md-2'>
+            <div>
+                <p className='take'>More</p>
+              </div>
+              <ul>
+                <li>About</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 
 
