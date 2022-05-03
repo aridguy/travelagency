@@ -35,9 +35,9 @@ function App() {
 
           <div className="collapse navbar-collapse" id="ftco-nav">
             <ul className="navbar-nav ml-auto nav-linkss">
-              <li className="nav-item"><a href="" className="nav-link">About</a></li>
-              <li className="nav-item"><a href="" className="nav-link">Support</a></li>
-              <li className="nav-item"><a href="" className="nav-link">Language</a></li>
+              <li className="nav-item nav-link">About</li>
+              <li className="nav-item nav-link">Support</li>
+              <li className="nav-item nav-link">Language</li>
             </ul>
             <button className='btn btn-primary signin-btn'>Sign in</button>
           </div>
@@ -246,8 +246,7 @@ function App() {
             </div>
             <div className='col-md-2'>
             <p>Terms of Use</p>
-            </div>
-            <div className='col-md-2'>
+            </div>            <div className='col-md-2'>
             
             </div>
             
