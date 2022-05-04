@@ -1,5 +1,14 @@
+body{
+  overflow-x: hidden;
+}
+
 .heroimg {
   background-image: url(../src/assets/Section1/backghome.png);
+}
+
+.logo-text-up{
+
+  color: white;
 }
 
 .nav-brand {
@@ -22,6 +31,7 @@
   letter-spacing: 1px;
   line-height: 1;
 }
+
 
 .navbar-nav>.nav-item>.nav-link {
   font-size: 16px;
@@ -256,6 +266,28 @@ select:focus {
   background-size: cover;
 }
 
+.th1, .th2 {
+  transform: rotate(90deg);
+  color: white;
+  font-family: arial;
+  /* padding-top: 9em; */
+  margin-top: 20em;
+  position: relative;
+  left: 4em;
+  font-weight: 600;
+}
+
+.th3{
+  transform: rotate(90deg);
+  color: white;
+  font-family: arial;
+  /* padding-top: 9em; */
+  margin-top: 20em;
+  position: relative;
+  left: 4em;
+  font-weight: 600;
+}
+
 /* .th1, .th2, .th3 {
   color: white;
   font-weight: 700;
@@ -331,7 +363,7 @@ select:focus {
 .fab{
   padding: 8px;
   font-size: 3em;
-  
+  cursor: pointer;
   margin-top: 2em;
 }
 
@@ -342,6 +374,7 @@ select:focus {
 .take{
   color: #0d6efd;
   font-weight: 400;
+  cursor: pointer;
 }
 
 li{
@@ -351,17 +384,47 @@ li{
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   font-weight: 500;
+  cursor: pointer;
 
 }
 
 .fone, .ftwo, .fthree{
   padding-top: 21px;
+  cursor: pointer;
 }
 
 .secondrowfooter{
   padding-top: 6em;
   margin-bottom: 4em;
+  cursor: pointer;
 }
+
+/* .foto2corect{
+  background-image: url(./assets/Section1/Pics1.png);
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s ease-in-out;
+}
+.foto2corect:hover{
+  background-image: url(./assets/Section1/Pics2.png);
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+
+
+
+/* on hover for the images */
+/* .foto1:hover{
+  background: url(./assets/Section1/bg-b.png);
+  z-index: 99;
+} */
+
+
+
+
+
 
 /* .uncFooter{
   background-color: #f3f3f3;
@@ -394,6 +457,16 @@ li{
     height: 10rem;
   }
 
+  .mainwrap-mid {
+    height: 27em;
+    padding: 31px;
+  
+}
+.sect-wrap {
+  margin-left: 7em;
+  /* margin-bottom: 3em; */
+}
+
   .s2dlast {
     font-weight: 700;
     color: white;
@@ -401,6 +474,10 @@ li{
     margin-top: 2em;
     font-size: 3em;
     text-align: center;
+}
+
+.logo-text-up{
+  display: none;
 }
 
 .s2lbkg {

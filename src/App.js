@@ -18,6 +18,7 @@ import Arrow from './assets/icons/Arrowdown.svg';
 
 import Pics1 from './assets/Section1/Pics1.png';
 import Pics2 from './assets/Section1/Pics2.png';
+import Pics3 from './assets/Section1/Pics3.png';
 import Logofoot from './assets/Section1/Logofooter.svg';
 
 // import Bkga from './assets/Section1/bg-a.png';
@@ -28,7 +29,7 @@ function App() {
 
       <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div className="container">
-          <a className="navbar-brand" href="index.html"><img alt="" src={Logo} /> <i>&nbsp; </i> Arctic Travels</a>
+          <a className="navbar-brand" href="index.html"><img alt="" src={Logo} /> <i>&nbsp; </i> <span className='logo-text-up'>Arctic Travels</span></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="oi oi-menu"></span> Menu
           </button>
@@ -158,23 +159,27 @@ function App() {
         </div>
       </div>
 
+      {/* section five starts */}
       <div className='sect4th mt-5'>
         <div className='container'>
           <div className='row'>
             <div className='col-sm-6'>
               <div className='bestResorttxt animated slideInRight'>
                 <p className='resorttxt'>The Best Resort To Drink <br /> and Chill</p>
-                <p><img alt="" className='picsline1' src={Pics1} /></p> &nbsp; &nbsp;
-                <p><img alt="" className='picsline1 mt-3' src={Pics1} /></p>
+                <p><img alt="" className='picsline1 foto1' src={Pics1} /></p> &nbsp; &nbsp;
+                <p><img alt="" className='picsline1 mt-3 foto2' src={Pics3} /></p>
               </div>
             </div>
             <div className='col-sm-6 mt-3 animated slideInLeft'>
-              <p><img alt="" className='picsline2' src={Pics2} /></p>
-              <p><img alt="" className='picsline2' src={Pics2} /></p>
+              <div className='foto2corect'>
+                <p><img alt="" className='picsline2 foto3' src={Pics2} /></p>
+              </div>
+              <p><img alt="" className='picsline2 foto4' src={Pics2} /></p>
             </div>
           </div>
         </div>
       </div>
+      {/* section ends here */}
 
       <div className='s2lbkg mt-5'>
         <div className='container'>
@@ -210,9 +215,9 @@ function App() {
               <div>
                 <p className='take'>COMPANY</p>
                 <div className='fone'>
-                <li>About</li>
-                <li>Career</li>
-                <li>Mobile</li>
+                  <li>About</li>
+                  <li>Career</li>
+                  <li>Mobile</li>
                 </div>
               </div>
             </div>
@@ -220,9 +225,9 @@ function App() {
               <div>
                 <p className='take'>CONTACT</p>
                 <div className='ftwo'>
-                <li>FAQ</li>
-                <li>Press</li>
-                <li>Affiliates</li>
+                  <li>FAQ</li>
+                  <li>Press</li>
+                  <li>Affiliates</li>
                 </div>
               </div>
             </div>
@@ -239,17 +244,17 @@ function App() {
           </div>
           <div className='row secondrowfooter'>
             <div className='col-md-6'>
-            <p>© 2022 Arctic Travels - All right reserved. <br /> <b>designed by codetechs </b></p>
+              <p>© 2022 Arctic Travels - All right reserved. <br /> <b>designed by codetechs </b></p>
             </div>
             <div className='col-md-2'>
-            <p>Privacy policy</p>
+              <p>Privacy policy</p>
             </div>
             <div className='col-md-2'>
-            <p>Terms of Use</p>
+              <p>Terms of Use</p>
             </div>            <div className='col-md-2'>
-            
+
             </div>
-            
+
           </div>
         </div>
       </footer>
